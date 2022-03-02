@@ -76,6 +76,11 @@ padding-top: 13vh;
     grid-template-rows: 33.33% 33.33% 33.33%;
 }
 
+.black_box{
+    width: 40px;
+    height: 30px;
+}
+
 /* 2688x1242px at 458ppi */
 @media only screen 
     and (device-width: 414px) 
