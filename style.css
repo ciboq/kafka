@@ -89,14 +89,22 @@ padding-top: 13vh;
 }
 
 .black_box>p{
-    margin-top: 3vh;
-    margin-left: 8vh;
-    line-height: 24pt;
+    margin-top: 2.5vh;
+    margin-left: 3vh;
+    line-height: 30pt;
     color: white;
     font-family:'avenir';
     src: url(AvenirLTStd-Black.otf);
-    font-size: 20.01pt;
-    font-weight: 200;
+    font-size: 30pt;
+    font-weight: 100;
+}
+
+.stepbystep{
+    padding-top: 5vh;
+    width: 900px;
+    height: 900px;
+    grid-row: 2/3;
+    background-color: grey;
 }
 
 /* 2688x1242px at 458ppi */
