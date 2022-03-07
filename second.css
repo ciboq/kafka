@@ -8,7 +8,7 @@ main{
 .second_page{
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33vh 33.33vh 33.33vh;
     font-family:'avenir';
     src: url(AvenirLTStd-Black.otf);
     font-size: 30.01pt;
@@ -21,11 +21,10 @@ main{
 }
 
 .middle{
-    padding-top: 10vh;
+    padding-top: 6vh;
     display:grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1;
-    height: 400px;
 }
 
 .middle>:nth-child(1){
@@ -44,5 +43,36 @@ main{
     grid-row: 3/4;
     align-self: center;
     justify-self: center;
-    padding-top: 13vh;
+    }
+
+    .bottom_bar{
+        position: fixed;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 70px;
+        margin: 0%;
+        width: 100%;
+        height: 70px;
+        background-color: black;
+        color: white;
+        font-family:'palatino';
+        font-size: 30px;
+        src: url(pala.ttf);
+    }
+    
+    .bottom_bar>:nth-child(1){
+        align-self: center;
+        justify-self: center;
+        grid-column: 2;
+    }
+    
+    .bottom_bar>:nth-child(2){
+        align-self: center;
+        justify-self: center;
+        grid-column: 3;
+    }
+
+    a{
+        color: white;
     }

@@ -1,0 +1,20 @@
+main{
+    margin:0;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.char{
+    --offset: calc(var(--char-index) * 2rem);
+    offset-path: path(M110,17.16c50.53,0,91.5,93.35,91.5,208.5s-40.97,208.5-91.5,208.5s-91.5-93.35-91.5-208.5
+	c0-114.07,40.2-206.75,90.08-208.48);
+    offset-distance: var(--offset);
+    position: absolute;
+    animation: move 1500ms infinite alternate forwards var(--delay, 0ms);
+}
+
+svg{
+    color: white;
+}
