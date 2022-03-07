@@ -15,6 +15,13 @@ main{
     grid-template-areas: 'overlap';
 }
 
+.white_block{
+    width: 100%;
+    height: 147px;
+    background-color: white;
+    grid-row: 8;
+}
+
 .landing_page>p{
     padding:0%;
     margin: 0%;
