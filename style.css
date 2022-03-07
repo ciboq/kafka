@@ -6,7 +6,7 @@ main{
 
 .landing_page{
     display: grid;
-    grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+    grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
     font-family:'palatino';
     src: url(pala.ttf);
     font-size: 100.01pt;
@@ -28,14 +28,14 @@ main{
     bottom: 0;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 30px;
+    grid-template-rows: 70px;
     margin: 0%;
     width: 100%;
-    height: 30px;
+    height: 70px;
     background-color: black;
     color: white;
     font-family:'palatino';
-    font-size: 14px;
+    font-size: 30px;
     src: url(pala.ttf);
 }
 
@@ -54,6 +54,10 @@ main{
 .landing_page>p{
     padding:0%;
     margin: 0%;
+}
+
+a{
+    color: white;
 }
 
 /* 2688x1242px at 458ppi */
