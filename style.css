@@ -10,7 +10,6 @@ main{
     font-family:'palatino';
     src: url(pala.ttf);
     font-size: 100.01pt;
-    gap: 2vh;
     grid-template-areas: 'overlap';
 }
 
