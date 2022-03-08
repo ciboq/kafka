@@ -31,6 +31,64 @@ main{
     font-weight: 100;
 }
 
+.footstep1{
+    opacity: 0;
+    position: absolute;
+    width: 90px;
+    height: 224.133px;
+    left: 20vw;
+    top: 30vh;
+    transform: rotate(130deg);
+    animation: fadeIn 6s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.footstep2{
+    opacity: 0;
+    position: absolute;
+    width: 90px;
+    height: 224.133px;
+    left: 50vw;
+    top: 35vh;
+    transform: rotate(120deg);
+    scale: 1.7;
+    animation: fadeIn 5s;
+    animation-delay: 0.5s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.footstep3{
+    opacity: 0;
+    position: absolute;
+    width: 90px;
+    height: 224.133px;
+    left: 20vw;
+    top: 60vh;
+    transform: rotate(130deg);
+    animation: fadeIn 5s;
+    animation-delay: 1.5s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.footstep4{
+    opacity: 0;
+    position: absolute;
+    width: 90px;
+    height: 224.133px;
+    left: 60vw;
+    top: 65vh;
+    transform: rotate(120deg);
+    scale: 1.7;
+    animation: fadeIn 5s;
+    animation-delay: 2s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+
 .stepbystep{
     grid-row: 2;
     margin-bottom: 200px;
@@ -78,6 +136,16 @@ main{
 
 a{
     color: white;
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeOut{
+    0% {opacity: 1;}
+    100% {opacity:0;}
 }
 
 /* 2688x1242px at 458ppi */
