@@ -2,7 +2,6 @@ main{
     margin:0;
     height: 100vh;
     width: 100%;
-    color: white;
 }
 
 svg{
@@ -13,12 +12,14 @@ text{
     font-family:'palatino';
     src: url(pala.ttf);
     font-size: 9pt;
+    color: white;
 }
 
 textPath{
     offset-path: path(M110,17.16c50.53,0,91.5,93.35,91.5,208.5s-40.97,208.5-91.5,208.5s-91.5-93.35-91.5-208.5
     c0-114.07,40.2-206.75,90.08-208.48);
     animation: infinite 3000ms;
+    color: white;
 }
 
 .bottom_bar{
