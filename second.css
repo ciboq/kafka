@@ -90,10 +90,10 @@ main{
 
     @media only screen and (max-width:414px) {
         .second_page{
-            column-width: 100%;
+            width: 100%;
         }
         .middle{
-            column-width: 100%;
+            width: 100%;
         }
         .you_image{
             width: 100%;
