@@ -2,19 +2,53 @@ main{
     margin:0;
     height: 100vh;
     width: 100%;
-    background-color: black;
     color: white;
 }
 
-.char{
-    --offset: calc(var(--char-index) * 2rem);
-    offset-path: path(M110,17.16c50.53,0,91.5,93.35,91.5,208.5s-40.97,208.5-91.5,208.5s-91.5-93.35-91.5-208.5
-	c0-114.07,40.2-206.75,90.08-208.48);
-    offset-distance: var(--offset);
-    position: absolute;
-    animation: move 1500ms infinite alternate forwards var(--delay, 0ms);
+svg{
+    color: white;
 }
 
-svg{
+text{
+    font-family:'palatino';
+    src: url(pala.ttf);
+    font-size: 9pt;
+}
+
+textPath{
+    offset-path: path(M110,17.16c50.53,0,91.5,93.35,91.5,208.5s-40.97,208.5-91.5,208.5s-91.5-93.35-91.5-208.5
+    c0-114.07,40.2-206.75,90.08-208.48);
+    animation: infinite 3000ms;
+}
+
+.bottom_bar{
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 70px;
+    margin: 0%;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-family:'palatino';
+    font-size: 30px;
+    src: url(pala.ttf);
+}
+
+.bottom_bar>:nth-child(1){
+    align-self: center;
+    justify-self: center;
+    grid-column: 2;
+}
+
+.bottom_bar>:nth-child(2){
+    align-self: center;
+    justify-self: center;
+    grid-column: 3;
+}
+
+a{
     color: white;
 }
