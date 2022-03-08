@@ -73,15 +73,19 @@ main{
 .grid>p:nth-child(1){
     grid-row: 1;
     color: white;
-    padding-top: 0;
+    font-size: 25pt;
+    padding-top: 4vh;
+    padding-left: 2vh;
     background-color: black;
+    margin-top: 0;
 }
 
 .grid>p:nth-child(2){
     grid-row: 3;
-    font-size: 20pt;
+    font-size: 30pt;
     margin: 0;
-    padding-top: 80px;
+    padding-top: 10vh;
+    padding-left: 2vh;
     color: white;
     background-color: black;
 }
