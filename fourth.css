@@ -4,22 +4,16 @@ main{
     width: 100%;
 }
 
-svg{
-    color: white;
+.video{
+    width: 964px;
+    height: 2120.97px;
+    overflow: hidden;
+    display: block;
 }
 
-text{
-    font-family:'palatino';
-    src: url(pala.ttf);
-    font-size: 9pt;
-    color: white;
-}
-
-textPath{
-    offset-path: path(M110,17.16c50.53,0,91.5,93.35,91.5,208.5s-40.97,208.5-91.5,208.5s-91.5-93.35-91.5-208.5
-    c0-114.07,40.2-206.75,90.08-208.48);
-    animation: infinite 3000ms;
-    color: white;
+video{
+    scale: 3.8;
+    margin-top: 34vh;
 }
 
 .bottom_bar{

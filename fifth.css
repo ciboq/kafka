@@ -2,7 +2,6 @@ main{
     margin:0;
     height: 100vh;
     width: 100%;
-    mix-blend-mode: multiply;
 }
 
 .grid{
@@ -80,9 +79,9 @@ main{
 
 .grid>p:nth-child(2){
     grid-row: 3;
-    font-size: 40pt;
+    font-size: 20pt;
     margin: 0;
-    padding-top: 60px;
+    padding-top: 80px;
     color: white;
     background-color: black;
 }
