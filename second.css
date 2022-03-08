@@ -7,6 +7,8 @@ main{
 
 .second_page{
     display: grid;
+    padding-left: 2vh;
+    padding-right: 2vh;
     grid-template-columns: 1;
     grid-template-rows: 33.33vh 33.33vh 33.33vh;
     font-family:'avenir';
@@ -21,7 +23,7 @@ main{
 }
 
 .middle{
-    padding-top: 6vh;
+    padding-top: 8vh;
     display:grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1;
@@ -41,11 +43,20 @@ main{
 
 .you_image{
     grid-row: 3/4;
-    align-self: center;
+    position: relative;
     justify-self: center;
     }
 
+.you_image>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 6vh;
+    font-size: 200pt;
+}
+
     .bottom_bar{
+        padding-left: 0vh;
         position: fixed;
         bottom: 0;
         display: grid;

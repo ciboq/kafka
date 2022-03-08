@@ -15,7 +15,6 @@ main{
     grid-row: 1/2;
     width: 900px;
     height: 300px;
-    background-color: black;
     justify-self: center;
     align-self: center;
 }
@@ -23,8 +22,8 @@ main{
 .black_box>p{
     margin-top: 2.5vh;
     margin-left: 3vh;
-    line-height: 30pt;
-    color: white;
+    line-height: 35pt;
+    color: black;
     font-family:'avenir';
     src: url(AvenirLTStd-Black.otf);
     font-size: 30pt;
