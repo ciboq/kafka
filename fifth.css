@@ -2,7 +2,7 @@ main{
     margin:0;
     height: 100vh;
     width: 100%;
-    color: black;
+    mix-blend-mode: multiply;
 }
 
 .grid{
@@ -14,23 +14,77 @@ main{
     font-weight: 100;
 }
 
+.blackbox{
+    position: absolute;
+    width: 250px;
+    height: 800px;
+    margin-top: 30vh;
+    background-color: black;
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+
+.blackbox2{
+    position: absolute;
+    width: 250px;
+    height: 800px;
+    margin-top: 30vh;
+    right: 10px;
+    background-color: black;
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+
+.stormvid{
+    position: absolute;
+    margin-top: 30vh;
+    width: 964px;
+    overflow: hidden;
+    display: block;
+    mix-blend-mode: multiply;
+    z-index: 2;
+}
+
 .storm{
-    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-content:top;
+    position:absolute;
     top:0px;
+    left: 50vw;
     line-height: 0.5;
     font-family:'avenir';
     src: url(AvenirLTStd-Black.otf);
     font-size: 400pt;
-    font-weight: 500;
+    font-weight: 300;
+    mix-blend-mode: multiply;
+}
+
+.storm>p{
+    position: absolute;
+    top: 0px;
+    align-self: center;
+    margin: 30.5vh;
+    color: white;
+    background-color: black;
+    mix-blend-mode: multiply;
+    z-index: 2;
 }
 
 .grid>p:nth-child(1){
     grid-row: 1;
+    color: white;
+    padding-top: 0;
+    background-color: black;
 }
 
 .grid>p:nth-child(2){
     grid-row: 3;
     font-size: 40pt;
+    margin: 0;
+    padding-top: 60px;
+    color: white;
+    background-color: black;
 }
 
 .bottom_bar{
