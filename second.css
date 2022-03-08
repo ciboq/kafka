@@ -92,6 +92,11 @@ main{
         .second_page{
             width: 100%;
         }
+
+        .second_page>:nth-child(1){
+            width: 100%;
+        }
+
         .middle{
             width: 100%;
         }
