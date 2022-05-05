@@ -12,8 +12,6 @@ main{
 video{
     position:fixed;
     margin: 0;
-    scale: 3.8;
-    left:-145vw;
     right: 0;
 }
 
