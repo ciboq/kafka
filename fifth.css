@@ -51,7 +51,6 @@ main{
     align-content:top;
     position:absolute;
     top:0px;
-    left: 50vw;
     line-height: 0.5;
     font-family:'avenir';
     src: url(AvenirLTStd-Black.otf);
