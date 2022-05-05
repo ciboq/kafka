@@ -32,6 +32,7 @@ main{
     background-color: black;
     mix-blend-mode: multiply;
     z-index: 1;
+    position:fixed;
 }
 
 .stormvid{
@@ -60,7 +61,7 @@ main{
 }
 
 .storm>p{
-    position: absolute;
+    position: fixed;
     top: 0px;
     align-self: center;
     margin: 30.5vh;
