@@ -64,9 +64,7 @@ main{
     position: absolute;
     top: 0vh;
     align-self: center;
-    margin: 30.5vh;
     color: white;
-    left: -50;
     background-color: black;
     mix-blend-mode: multiply;
     z-index: 2;
