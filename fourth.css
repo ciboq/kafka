@@ -12,8 +12,11 @@ main{
 }
 
 video{
+    position:fixed;
+    margin: 0;
     scale: 3.8;
-    margin-top: 34vh;
+    left:-145vw;
+    right: 0;
 }
 
 .bottom_bar{
