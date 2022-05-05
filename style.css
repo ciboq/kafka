@@ -22,10 +22,11 @@ main{
     width:964px;
 }
 
-.landing_page>img:nth-child(9){
+.wave{
     position:absolute;
     right: 0;
-    top: 73vh;
+    bottom:0;
+    z-index: 1;
     animation: fadeIn 5s;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -46,6 +47,7 @@ main{
     font-family:'palatino';
     font-size: 30px;
     src: url(pala.ttf);
+    z-index: 2;
 }
 
 .bottom_bar>:nth-child(1){
@@ -72,7 +74,7 @@ a{
 
 .gradient{
     position:absolute;
-    bottom:70px;
+    bottom:0px;
     z-index: -1;
 }
 
