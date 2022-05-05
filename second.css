@@ -16,8 +16,8 @@ main{
     font-size: 30.01pt;
 }
 
-.second_page>:nth-child(1){
-    grid-template-rows: 1/2;
+.top{
+    grid-row: 1/2;
     font-weight: 200;
     src: url(AvenirLTStd-Black.otf);
 }
