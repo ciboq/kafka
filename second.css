@@ -17,13 +17,21 @@ main{
 }
 
 .top{
+    position:absolute;
+    padding-right: 2vh;
     grid-row: 1/2;
     font-weight: 200;
     src: url(AvenirLTStd-Black.otf);
 }
 
+.top p{
+
+}
+
 .middle{
-    padding-top: 8vh;
+    position:absolute;
+    width: 90vw;
+    top: 40vh;
     display:grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1;
