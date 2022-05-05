@@ -7,12 +7,15 @@ main{
 .video{
     overflow: hidden;
     display: block;
+    width: 398px;
+    height:896px;
 }
 
 video{
     position:fixed;
     margin: 0;
     right: 0;
+    left: -280px;
 }
 
 .gif{
@@ -38,6 +41,7 @@ video{
     font-size: 30px;
     src: url(pala.ttf);
 }
+
 
 .bottom_bar>:nth-child(1){
     align-self: center;
