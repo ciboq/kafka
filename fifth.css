@@ -48,7 +48,7 @@ main{
     display: flex;
     flex-direction: column;
     align-content:top;
-    position:sticky;
+    position:absolute;
     top:0px;
     left: 50vw;
     line-height: 0.5;
@@ -61,7 +61,7 @@ main{
 }
 
 .storm>p{
-    position: fixed;
+    position:absolute;
     margin-top: 30vh;
     align-self: center;
     color: white;
