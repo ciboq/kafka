@@ -62,7 +62,7 @@ main{
 
 .storm>p{
     position: absolute;
-    top: 0vh;
+    top: 10vh;
     align-self: center;
     color: white;
     background-color: black;
