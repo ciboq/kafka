@@ -5,6 +5,7 @@ main{
 }
 
 .video{
+    position:absolute;
     overflow: hidden;
     display: block;
     width: 398px;
