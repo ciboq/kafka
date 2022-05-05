@@ -58,6 +58,7 @@ main{
     font-size: 400pt;
     font-weight: 300;
     mix-blend-mode: multiply;
+    z-index: 3;
 }
 
 .storm>p{
