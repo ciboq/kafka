@@ -14,8 +14,7 @@ main{
 video{
     position:fixed;
     margin: 0;
-    right: 0;
-    left: -780px;
+    right: -50;
 }
 
 .gif{
