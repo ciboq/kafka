@@ -49,8 +49,9 @@ main{
     display: flex;
     flex-direction: column;
     align-content:top;
-    position:absolute;
+    position:fixed;
     top:0px;
+    left: 50vw;
     line-height: 0.5;
     font-family:'avenir';
     src: url(AvenirLTStd-Black.otf);
@@ -61,7 +62,7 @@ main{
 
 .storm>p{
     position: fixed;
-    top: 0px;
+    top: 0vh;
     align-self: center;
     margin: 30.5vh;
     color: white;
