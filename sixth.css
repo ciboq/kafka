@@ -5,7 +5,7 @@ main{
 }
 
 .grid{
-    display: grid;
+    position: absolute;
     padding-left: 2vh;
     padding-right: 2vh;
     grid-template-columns: 1;
@@ -19,7 +19,10 @@ main{
     grid-row: 1;
 }
 
-.grid>p:nth-child(2){
+.middle{
+    position:absolute;
+    top:45vh;
+    left:35vw;
     grid-row: 2;
     align-self: center;
     justify-self: center;
@@ -29,7 +32,7 @@ main{
     grid-row: 3;
     align-self: baseline;
     position:fixed;
-    padding-top: 90vh;
+    padding-top: 80vh;
     right:2vh;
 }
 
